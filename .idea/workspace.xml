@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8023fff-9102-4a69-b7b0-6128318261df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme_img/GalaxyS10Lite1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_img/GalaxyS10Lite2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +55,7 @@
       <workItem from="1604849003547" duration="1488000" />
       <workItem from="1605127488592" duration="57000" />
       <workItem from="1605127594233" duration="121000" />
+      <workItem from="1605535345139" duration="226000" />
     </task>
     <servers />
   </component>

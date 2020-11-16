@@ -82,3 +82,8 @@ Ik wil Funda namaken en aanpassen met een aantal micro interacties. Deze zullen 
 
 **Screenshot(s) van de tweede pagina (small screen):**
 <img src="readme_img/Screenshot_3.png" width="375px" alt="Funda huis page">
+
+
+**Breakdown funda**
+<img src="readme_img/GalaxyS10Lite1.png" width="375px" alt="Funda breakdown">
+<img src="readme_img/GalaxyS10Lite2.png" width="375px" alt="Funda breakdown">
