@@ -1,19 +1,235 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Martijn Reeuwijk">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy</title>
-	
+
+	<title>Funda</title>
+
 	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/menu.css" rel="stylesheet">
+
 </head>
 
 <body>
-	<h1>Howdy</h1>
-	<script src="scripts/script.js"></script>
+
+<main>
+	<nav class="navigatie">
+
+		<a href="/">
+			<img src="./images/logo" alt="Logo funda">
+		</a>
+
+		<div>
+			<div>
+				Mystery menu (ph)
+			</div>
+
+			<button class="login">
+				Login
+			</button>
+		</div>
+	</nav>
+
+	<!--	Alles zit in een main -->
+
+	<section class="heroImage">
+		<h2>Je eerste koophuis, waar die kleinen leert lopen</h2>
+	</section>
+
+	<section class="filterHolder">
+		<form action="">
+			<!--	Fieldset want het zijn related items		-->
+			<fieldset>
+
+
+				<div class="filterButtonHolder">
+					<!--	Dit kan met in css met Button .koop		-->
+					<!--	Persoonlijk vindt in lange classes niet erg		-->
+					<button class="buttonKoop">Koop</button>
+					<button class="buttonHuur">Huur</button>
+					<button class="buttonMore">More</button>
+				</div>
+				<!--	Dit zou zomaar een Formulier kunnen zijn	-->
+				<div class="inputHolder">
+					<!--			Dit zijn drop downs-->
+					<!--			Labels? -->
+
+					<div class="plaatsHolder">
+						<!--				Funda heeft de basis dropdown en die is niet cool. kan dit met JS veranderen en meer in style maken.-->
+						<!--	De anders heeft een custom text attr		-->
+						<input type="text" maxlength="50" placeholder="Plaats, Buurt, adress, etc">
+
+						<select name="km" id="km">
+							<option value="10">10km</option>
+							<option value="20">20km</option>
+							<option value="30">30km</option>
+							<option value="40">40km</option>
+							<option value="50">50km</option>
+							<option value="60">60km</option>
+							<option value="70">70km</option>
+						</select>
+
+
+					</div>
+					<!--	Css attribute patterns -->
+					<select name="van" id="van">
+						<option value="50000">50000</option>
+						<option value="75000">75000</option>
+						<option value="100000">100000</option>
+						<option value="150000">150000</option>
+						<option value="200000">200000</option>
+						<option value="250000">250000</option>
+						<option value="300000">300000</option>
+						<option value="350000">350000</option>
+						<option value="400000">400000</option>
+						<option value="450000">450000</option>
+						<option value="500000">500000</option>
+						<option value="550000">550000</option>
+						<option value="custom">Anders</option>
+					</select>
+					<select name="tot" id="tot">
+						<option value="50000">50000</option>
+						<option value="75000">75000</option>
+						<option value="100000">100000</option>
+						<option value="150000">150000</option>
+						<option value="200000">200000</option>
+						<option value="250000">250000</option>
+						<option value="300000">300000</option>
+						<option value="350000">350000</option>
+						<option value="400000">400000</option>
+						<option value="450000">450000</option>
+						<option value="500000">500000</option>
+						<option value="550000">550000</option>
+						<option value="custom">Anders</option>
+					</select>
+
+				</div>
+			</fieldset>
+		</form>
+	</section>
+
+	<section class="overigInfo">
+
+		<div class="overigItem">
+			<p></p>
+			<img src="" alt="">
+		</div>
+
+	</section>
+
+	<section class="carouselHolder">
+		<h2>Woning in beeld</h2>
+
+		<div class="carousel">
+			<article class="carouselItem">
+				<header class="carouselItemImage"></header>
+				<div class="carouselItemDetails">
+					<h3>Naam huis</h3>
+					<address>
+						<p>Locatie</p>
+					</address>
+					<p>prijs</p>
+					<a href="index.html">Link huis</a>
+				</div>
+			</article>
+		</div>
+
+	</section>
+
+	<section>
+		<h2>Heb je een vraag?</h2>
+		<a href="#">
+			<article>
+				<header class="headerImg">
+
+				</header>
+				<p>
+					Op zoek naar een antwoord op al je vragen over het kopen of verkopen van een woning?
+				</p>
+
+				<p>
+				<span>
+					Meer weten
+				</span>
+				</p>
+			</article>
+		</a>
+	</section>
+
+
+	<section>
+		<article>
+			<h2>
+				Bereid je voor met deze verhalen en tips
+			</h2>
+			<div class="fundaIndex">
+				<p>Funda index: Gunstige tijd voor verkoops</p>
+				<a href="">Lees het artikel ></a>
+			</div>
+		</article>
+	</section>
+
+
+	<section class="overigInfoRev">
+		<!--		5x dit element-->
+		<div class="overigItem">
+			<p></p>
+			<img src="" alt="">
+		</div>
+	</section>
+
+	<section>
+		<article>
+			<header>
+				<img src="logo" alt="">
+				In business
+			</header>
+			<p>Kantoorruimte, winkelpand, logistiek complex of bedrijfsruimte? Vind het via funda in business</p>
+			<button>Bekijk het aanbod</button>
+		</article>
+
+		<article>
+			<header>
+				<img src="icon" alt="icon">
+			</header>
+			<p>
+				Ben je van plan je huis te verkopen?
+			</p>
+			<button>Alles over verkoop</button>
+		</article>
+	</section>
+
+	<section>
+		<!-- Dit is even een ding moet even kijk hoe dit werkt	-->
+		<div>
+			Dienst
+		</div>
+	</section>
+
+	<section>
+		<div class="socialMedia">
+			<a href="#">Facebook</a>
+			<a href="#">twitter</a>
+			<a href="#">insta</a>
+			<a href="#">youtube</a>
+			<a href="#">linkedIn</a>
+		</div>
+		<div class="copyright"> &#9400; 2001-2020 Funda</div>
+		<div class="privacyHolder">
+			<!--		Dot toevoegen	-->
+			<a href="#">Privacy</a>
+			<a href="#">Cookies</a>
+			<a href="#">Voorwaard</a>
+
+		</div>
+	</section>
+
+</main>
 </body>
-	
+
+<script src="scripts/script.js"></script>
+
 </html>
