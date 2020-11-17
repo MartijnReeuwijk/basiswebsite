@@ -1,5 +1,152 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Proxima Nova,sans-serif;
+}
+
+main{
+  max-width: 750px;
+}
+
+fieldset {
+  border: none;
+}
+select {
+  border-radius: 2px;
+}
+
+.heroImageHolder {
+  height: 170px;
+}
+.heroImageHouse{
+  width: 80px;
+  height: 100px;
+  background-position: right;
+  background-image: url("../images/doorzon-rechts.svg");
+}
+form{
+  border: none;
+  color: white;
+  background-color: #f7a100;
+}
+.selectedVT select{
+  margin: 10px 0 0 0;
+  border: none;
+}
+.filterButtonHolder, .inputHolder{
+  width: 100%;
+  padding: 1rem;
+
+}
+.zoeken{
+  width: 100%;
+  background-color:#0071b3;
+  margin: 10px 0;
+  text-align: center;
+  padding: 0 1.5em;
+  height: 2.75em;
+  line-height: 2.75em;
+  border-radius: 2px;
+}
+.inputHolder select{
+  width: 100%;
+  height: 50px;
+}
+
+.plaatsHolder{
+  display: flex;
+  width: 100%;
+  border: none;
+}
+.plaatsHolder input{
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+}
+.plaatsHolder select{
+  border: none;
+  width: 75px;
+  height: 50px;
+}
+
+.filterButtonHolder ul{
+  list-style-type: none;
+  display:flex ;
+}
+.filterButtonHolder li{
+  padding: .4rem 1rem;
+  display: inline-block;
+  margin: 0;
+  border: none;
+  color: #53241b;
+  background-color: none;
+}
+
+.overigInfo{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+.overigItem{
+  width: 100%;
+  height: 50px;
+  color: #0071b3;
+  border-radius: 2px;
+  padding: 1.125rem 4.0625rem 1.125rem 1.125rem;
+  margin-bottom: .5rem;
+  border: 1px solid #e6f2f7;
+  background-size: 44px 44px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+}
+.img1 {
+  background-image: url("../images/links-agents.svg");
+}
+.img2{
+  background-image: url("../images/links-map.svg");
+}
+.img3{
+  background-image: url("../images/links-value.svg");
+}
+
+
+.carouselHolder{
+  height: auto;
+
+}
+.carouselItem{
+  width: calc(100vw - 30px);
+  max-width: 400px;
+  height: 500px;
+  display: flex;
+
+}
+
+.carouselItemImage{
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/house.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+.active{
+  background-color: #f8c463;
+  border-radius: 2px;
 }
 

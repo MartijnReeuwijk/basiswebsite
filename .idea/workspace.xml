@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8023fff-9102-4a69-b7b0-6128318261df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20viewBox%3D%220%200%2048%2048%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M7.5%2012.5h30a1.5%201.5%200%20010%203h-30a1.5%201.5%200%20010-3zm0%2010h33a1.5%201.5%200%20010% (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cpath%20d%3D%22M19%2017.08h-4.23v6.84H19V44h8V23.83h5.62l.6-6.75H27v-3.85c0-1.59.32-2.22%201.86-2.22h4.36V4h-5.57c-.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cpath%20d%3D%22M24%207.61c5.34%200%206%200%208.08.12%205.42.25%208%202.82%208.2%208.2.1%202.11.11%202.74.11%208.08s.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cpath%20d%3D%22M24%209a8%208%200%20108%208%208%208%200%2000-8-8zm0%2013a5%205%200%20115-5%205%205%200%2001-5%20 (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cpath%20d%3D%22M26.12%2024l10.61-10.61a1.5%201.5%200%20000-2.12%201.5%201.5%200%2000-2.12%200L24%2021.88%2013.39%20.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cpath%20d%3D%22M35%2040H13V22.84l-3%203.33V41.5a1.5%201.5%200%20001.5%201.5h25a1.5%201.5%200%20001.5-1.5V26.17l-3-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cpath%20d%3D%22M35.93%2031.07c-.46-3.33-3.34-6-7.13-6.83h-.19a1.5%201.5%200%2000-1%20.26%201.49%201.49%200%2000-.55.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cpath%20d%3D%22M44%2021.16A16%2016%200%200028.84%206a1.5%201.5%200%2000-.34%200h-23A1.5%201.5%200%20004%207.5v19a1..svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cpath%20d%3D%22M44.56%2019.73a21%2021%200%2000-16.3-16.29A20.59%2020.59%200%200024%203a20.59%2020.59%200%2000-4 (2).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cpath%20d%3D%22M44.56%2019.73a21%2021%200%2000-16.3-16.29A20.59%2020.59%200%200024%203a20.59%2020.59%200%2000-4.26..svg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/doorzon-rechts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/house.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/doorzon-rechts.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/doorzon-rechts.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <workItem from="1605535345139" duration="226000" />
       <workItem from="1605604945034" duration="151000" />
       <workItem from="1605605260729" duration="98000" />
-      <workItem from="1605605389566" duration="7256000" />
+      <workItem from="1605605389566" duration="14508000" />
     </task>
     <servers />
   </component>
@@ -117,10 +114,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="620" y="243" key="run.anything.popup/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1604688626979" />
-    <state x="399" y="183" width="838" height="453" key="search.everywhere.popup" timestamp="1605606835541">
+    <state x="399" y="183" width="838" height="453" key="search.everywhere.popup" timestamp="1605615667140">
       <screen x="0" y="23" width="1280" height="694" />
     </state>
     <state x="598" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1605127650441" />
-    <state x="399" y="183" width="838" height="453" key="search.everywhere.popup/0.23.1280.694@0.23.1280.694" timestamp="1605606835541" />
+    <state x="399" y="183" width="838" height="453" key="search.everywhere.popup/0.23.1280.694@0.23.1280.694" timestamp="1605615667140" />
   </component>
 </project>

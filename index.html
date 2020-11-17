@@ -16,52 +16,48 @@
 <body>
 
 <main>
+
 	<nav class="navigatie">
-
-		<a href="/">
-			<img src="./images/logo" alt="Logo funda">
+		<a href="/" class="logoNav">
+			<img src="./images/fundawonen-logo.svg" alt="Logo funda">
 		</a>
-
-		<div>
+		<div class="menuLogin">
 			<div>
-				Mystery menu (ph)
+				=
 			</div>
-
-			<button class="login">
+			<a class="login" href="#">
 				Login
-			</button>
+			</a>
 		</div>
 	</nav>
 
 	<!--	Alles zit in een main -->
 
-	<section class="heroImage">
+	<section class="heroImageHolder">
+<!--	Dit is een SVG stack komt later	-->
 		<h2>Je eerste koophuis, waar die kleinen leert lopen</h2>
+	<div class="heroImageHouse"></div>
 	</section>
 
 	<section class="filterHolder">
-		<form action="">
+		<form action="" class="filterHolderForm">
 			<!--	Fieldset want het zijn related items		-->
 			<fieldset>
 
-
 				<div class="filterButtonHolder">
 					<!--	Dit kan met in css met Button .koop		-->
-					<!--	Persoonlijk vindt in lange classes niet erg		-->
-					<button class="buttonKoop">Koop</button>
-					<button class="buttonHuur">Huur</button>
-					<button class="buttonMore">More</button>
+					<!--	Persoonlijk vindt in lange classes niet erg -->
+					<ul>
+						<li class="active">Koop</li>
+						<li class="">Huur</li>
+						<li class="">More</li>
+					</ul>
+
 				</div>
 				<!--	Dit zou zomaar een Formulier kunnen zijn	-->
 				<div class="inputHolder">
-					<!--			Dit zijn drop downs-->
-					<!--			Labels? -->
-
 					<div class="plaatsHolder">
-						<!--				Funda heeft de basis dropdown en die is niet cool. kan dit met JS veranderen en meer in style maken.-->
-						<!--	De anders heeft een custom text attr		-->
 						<input type="text" maxlength="50" placeholder="Plaats, Buurt, adress, etc">
-
 						<select name="km" id="km">
 							<option value="10">10km</option>
 							<option value="20">20km</option>
@@ -71,10 +67,10 @@
 							<option value="60">60km</option>
 							<option value="70">70km</option>
 						</select>
-
-
 					</div>
+
 					<!--	Css attribute patterns -->
+					<fieldset class="selectedVT">
 					<select name="van" id="van">
 						<option value="50000">50000</option>
 						<option value="75000">75000</option>
@@ -105,25 +101,43 @@
 						<option value="550000">550000</option>
 						<option value="custom">Anders</option>
 					</select>
+					</fieldset>
+
+					<div class="zoeken">Zoek</div>
 
 				</div>
 			</fieldset>
 		</form>
 	</section>
 
+	<section>
 	<section class="overigInfo">
-
-		<div class="overigItem">
-			<p></p>
+		<a class="overigItem img1">
+			<p>Zoek een NVM-makelaar</p>
 			<img src="" alt="">
-		</div>
+		</a>
+	</section>
 
+	<section class="overigInfo">
+		<a class="overigItem img2">
+			<p>Zoek op de kaart</p>
+			<img src="" alt="">
+		</a>
+	</section>
+
+	<section class="overigInfo">
+		<a class="overigItem img3">
+			<p>Doe de waarde check</p>
+			<img src="" alt="">
+		</a>
+	</section>
 	</section>
 
 	<section class="carouselHolder">
 		<h2>Woning in beeld</h2>
 
 		<div class="carousel">
+
 			<article class="carouselItem">
 				<header class="carouselItemImage"></header>
 				<div class="carouselItemDetails">
