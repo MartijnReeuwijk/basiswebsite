@@ -39,6 +39,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+Alles is goed te doen, het enige lastige de de gestackete SVG en carusell.
+Huren is ook een anderen pagina ipv kopen. Dit hadden ze ook kunnen oplossen met een Javascript functie of framework inlaat ipv een gehele nieuwe pagina.
+
 
 **Screenshot(s):**
 
