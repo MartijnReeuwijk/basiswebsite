@@ -18,13 +18,32 @@ select {
 }
 
 .heroImageHolder {
-  height: 170px;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  display: flex;
+  background: linear-gradient(180deg,#e6f2f7 0,#e6f2f7 50%,#fff 90%);
 }
 .heroImageHouse{
-  width: 80px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top:0;
+  right: -200px;
   background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-image: url("../images/doorzon-rechts.svg");
+}
+.heroImageHolder h2 {
+  font-weight: 400;
+  color: #53241b;
+  justify-content: center;
+  align-self: center;
+  z-index: 2;
+  padding:0 20px;
+  width: 250px;
 }
 form{
   border: none;
@@ -53,6 +72,7 @@ form{
 .inputHolder select{
   width: 100%;
   height: 50px;
+  padding: 0 10px;
 }
 
 .plaatsHolder{
@@ -64,10 +84,12 @@ form{
   width: 100%;
   border: none;
   border-radius: 2px;
+  padding: 0 10px;
 }
 .plaatsHolder select{
   border: none;
   width: 75px;
+  padding: 0 10px;
   height: 50px;
 }
 
@@ -75,12 +97,16 @@ form{
   list-style-type: none;
   display:flex ;
 }
+.filterButtonHolder {
+  padding: 1rem 1rem 0 1rem;
+}
 .filterButtonHolder li{
-  padding: .4rem 1rem;
+  padding: .5rem 1rem;
   display: inline-block;
+  height: 50px;
+  line-height: 30px;
   margin: 0;
   border: none;
-  color: #53241b;
   background-color: none;
 }
 
@@ -89,14 +115,13 @@ form{
   height: auto;
   background-color: white;
   display: flex;
-  padding: 0 1rem;
-  margin: 1rem 0;
 }
 .overigItem{
+  display: flex;
   width: 100%;
-  height: 50px;
   color: #0071b3;
   border-radius: 2px;
+  line-height: 15px;
   padding: 1.125rem 4.0625rem 1.125rem 1.125rem;
   margin-bottom: .5rem;
   border: 1px solid #e6f2f7;
@@ -115,21 +140,36 @@ form{
   background-image: url("../images/links-value.svg");
 }
 
-
+.paddingHolder{
+  padding: 0 15px;
+  width: 100%;
+  overflow: hidden;
+  margin: 1rem 0;
+}
 .carouselHolder{
   height: auto;
-
+}
+.carouselOverflow{
+  overflow: scroll;
+}
+.carousel{
+  padding: 16px 0 0 0;
+  display: inline-flex;
+}
+.carouselHolder h2 {
 }
 .carouselItem{
-  width: calc(100vw - 30px);
+  width: calc(100vw - 100px);
+  overflow: hidden;
   max-width: 400px;
-  height: 500px;
-  display: flex;
-
+  height: auto;
+  padding-bottom: 20px;
+  margin-right: 10px;
 }
 
 .carouselItemImage{
-  height: 300px;
+  display: flex;
+  height: 250px;
   width: 100%;
   background-image: url("../images/house.jpg");
   background-repeat: no-repeat;
@@ -137,16 +177,101 @@ form{
   background-size: cover;
 }
 
+.carouselItemDetails{
+  padding: 10px 0;
+  display: block;
+}
+.carouselItemDetails * {
+  padding: 3px 0;
+}
+.prijs{
+  font-weight: bold;
+}
+.makelaarLink{
+  color: #0071b3;
+  text-decoration: none;
+  margin-top: 1em;
+  display: block;
+}
+.carouselItemDetails h3 {
+  color: #0071b3;
+}
+.carouselItemDetails address{
+  color:#333;
+}
+.fundaTitels{
+  padding: 10px 0;
+}
+.nostyle{
+  color: #333;
+  text-decoration: none;
+}
+
+.vragenItem{
+  width: 100%;
+  height: auto;
+  color: #333;
+
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.vragenItem p {
+  margin-top: .75rem;
+  margin-bottom: .375em;
+}
+.vragenItem span {
+  color: #0071b3;
+  font-weight: bold;
+}
+
+.headerImg{
+  width: 100%;
+  height: 245px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://assets.fstatic.nl/master_3303/assets/components/content-platform-banner/images/wij_helpen_je_met.jpg");
+}
+.koopenVerkoop{
+  width: 100%;
+  color: white;
+  height: 245px;
+  display: flex;
+  justify-content: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.funda-consument.nl.kpnis.nl/upload/8c74c38c-a8d7-402c-b15b-c0c49a941796_doorstromer%401x.jpg");
+}
+.centerHolder{
+  position: relative;
+  padding: 0 1.5rem;
+  text-align: center;
+  align-self: center;
+  height: 100px;
+}
+.centerHolder a {
+  text-decoration: none;
+  color:white;
+  padding: 5px;
+}
+.praatButton{
+  display: inline-flex;
+  padding: .5rem 1rem;
+  border-radius: 2px;
+  border: 2px solid white;
+
+}
 
 
-
-
-
+/*https://www.funda-consument.nl.kpnis.nl/upload/8c74c38c-a8d7-402c-b15b-c0c49a941796_doorstromer%401x.jpg*/
 
 
 
 .active{
   background-color: #f8c463;
   border-radius: 2px;
+  color: #53241b;
 }
 

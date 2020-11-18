@@ -25,17 +25,26 @@ nav {
     height: 100%;
     position: relative;
     text-align: left;
-    padding: 0 12px;
+    padding: 0 15px;
     line-height: 48px;
     max-width: 180px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     color: #fff;
+    text-decoration: none;
 }
 .logoNav{
     display: inline-block;
     height: 32px;
     width: 90px;
     margin: 8px;
+}
+
+.fakeMenu{
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../images/download.svg");
 }
