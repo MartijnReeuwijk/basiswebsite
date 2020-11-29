@@ -38,14 +38,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-Alles gaat wel lekker, had aan het begin ook naar desktop moeten kijken dan had ik mijn HTML structuur anders gedaan ook ben ik nog niet aan de JS toe gekomen
+-dit ging goed & dit was lastig-
+Alles is goed te doen, het enige lastige de de gestackete SVG en carusell.
+Huren is ook een anderen pagina ipv kopen. Dit hadden ze ook kunnen oplossen met een Javascript functie of framework inlaat ipv een gehele nieuwe pagina.
+
 
 **Screenshot(s):**
-<img src="readme_img/Screenshot_4.png" width="375px" alt="Funda home page zelf">
-<img src="readme_img/Screenshot_5.png" width="375px" alt="Funda home page zelf">
+
 -screenshot(s) van hoe ver je bent met korte uitleg-
-Eerste pagina is bijna af, heeft nog wat scaling nodig en de JS
-Er is wel altijd een probleem met de super verfijnde styling
+
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
