@@ -38,12 +38,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Alles gaat wel lekker, had aan het begin ook naar desktop moeten kijken dan had ik mijn HTML structuur anders gedaan ook ben ik nog niet aan de JS toe gekomen
 
 **Screenshot(s):**
-
+<img src="readme_img/Screenshot_4.png" width="375px" alt="Funda home page zelf">
+<img src="readme_img/Screenshot_5.png" width="375px" alt="Funda home page zelf">
 -screenshot(s) van hoe ver je bent met korte uitleg-
-
+Eerste pagina is bijna af, heeft nog wat scaling nodig en de JS
+Er is wel altijd een probleem met de super verfijnde styling
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-

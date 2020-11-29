@@ -2,14 +2,14 @@
 <html lang="nl">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Martijn Reeuwijk">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta content="Martijn Reeuwijk" name="author">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
-	<title>Funda</title>
+    <title>Funda</title>
 
-	<link href="styles/style.css" rel="stylesheet">
-	<link href="styles/menu.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/menu.css" rel="stylesheet">
 
 </head>
 
@@ -17,312 +17,382 @@
 
 <main>
 
-	<nav class="navigatie">
-		<a href="/" class="logoNav">
-			<img src="./images/fundawonen-logo.svg" alt="Logo funda">
-		</a>
-		<div class="menuLogin">
-			<div class="fakeMenu">
+    <nav class="navigatie">
+        <a class="logoNav" href="/">
+            <img alt="Logo funda" src="./images/fundawonen-logo.svg">
+        </a>
+        <div class="menuLogin">
+            <div class="fakeMenu">
 
-			</div>
-			<a class="login" href="#">
-				Inloggen
-			</a>
-		</div>
-	</nav>
+            </div>
+            <a class="login" href="#">
+                Inloggen
+            </a>
+        </div>
+    </nav>
 
-	<!--	Alles zit in een main -->
+    <!--	Alles zit in een main -->
 
-	<section class="heroImageHolder">
-<!--	Dit is een SVG stack komt later	-->
-		<h2 class="fundaTitels">Je eerste koophuis, waar die kleinen leert lopen</h2>
-	<div class="heroImageHouse"></div>
-	</section>
+    <section class="heroImageHolder">
+        <!--	Dit is een SVG stack komt later	-->
+        <h2 class="fundaTitels">Je eerste koophuis, waar die kleinen leert lopen</h2>
+        <div class="heroImageHouse"></div>
+    </section>
 
-	<section class="filterHolder">
-		<form action="" class="filterHolderForm">
-			<!--	Fieldset want het zijn related items		-->
-			<fieldset>
+    <section class="filterHolder">
+        <form action="" class="filterHolderForm">
+            <!--	Fieldset want het zijn related items		-->
+            <fieldset>
 
-				<div class="filterButtonHolder">
-					<!--	Dit kan met in css met Button .koop		-->
-					<!--	Persoonlijk vindt in lange classes niet erg -->
-					<ul>
-						<li class="active">Koop</li>
-						<li class="">Huur</li>
-						<li class="">More</li>
-					</ul>
+                <nav class="filterButtonHolder">
+                    <!--	Dit kan met in css met Button .koop		-->
+                    <!--	Persoonlijk vindt in lange classes niet erg -->
+                    <ul>
+                        <li class="active">Koop</li>
+                        <li class="">Huur</li>
+                        <li class="">More</li>
+                    </ul>
 
-				</div>
-				<!--	Dit zou zomaar een Formulier kunnen zijn	-->
-				<div class="inputHolder">
-					<div class="plaatsHolder">
-						<input type="text" maxlength="50" placeholder="Plaats, Buurt, adress, etc">
-						<select name="km" id="km">
-							<option value="10">10km</option>
-							<option value="20">20km</option>
-							<option value="30">30km</option>
-							<option value="40">40km</option>
-							<option value="50">50km</option>
-							<option value="60">60km</option>
-							<option value="70">70km</option>
-						</select>
-					</div>
+                </nav>
+                <!--	Dit zou zomaar een Formulier kunnen zijn	-->
+                <div class="inputHolder">
+                    <div class="plaatsHolder">
+                        <input maxlength="50" placeholder="Plaats, Buurt, adress, etc" type="text">
+                        <select id="km" name="km">
+                            <option value="10">10km</option>
+                            <option value="20">20km</option>
+                            <option value="30">30km</option>
+                            <option value="40">40km</option>
+                            <option value="50">50km</option>
+                            <option value="60">60km</option>
+                            <option value="70">70km</option>
+                        </select>
+                    </div>
 
-					<!--	Css attribute patterns -->
-					<fieldset class="selectedVT">
-					<select name="van" id="van">
-						<option value="50000">50000</option>
-						<option value="75000">75000</option>
-						<option value="100000">100000</option>
-						<option value="150000">150000</option>
-						<option value="200000">200000</option>
-						<option value="250000">250000</option>
-						<option value="300000">300000</option>
-						<option value="350000">350000</option>
-						<option value="400000">400000</option>
-						<option value="450000">450000</option>
-						<option value="500000">500000</option>
-						<option value="550000">550000</option>
-						<option value="custom">Anders</option>
-					</select>
-					<select name="tot" id="tot">
-						<option value="50000">50000</option>
-						<option value="75000">75000</option>
-						<option value="100000">100000</option>
-						<option value="150000">150000</option>
-						<option value="200000">200000</option>
-						<option value="250000">250000</option>
-						<option value="300000">300000</option>
-						<option value="350000">350000</option>
-						<option value="400000">400000</option>
-						<option value="450000">450000</option>
-						<option value="500000">500000</option>
-						<option value="550000">550000</option>
-						<option value="custom">Anders</option>
-					</select>
-					</fieldset>
+                    <!--	Css attribute patterns -->
+                    <fieldset class="selectedVT">
+                        <select id="van" name="van">
+                            <option value="50000">50000</option>
+                            <option value="75000">75000</option>
+                            <option value="100000">100000</option>
+                            <option value="150000">150000</option>
+                            <option value="200000">200000</option>
+                            <option value="250000">250000</option>
+                            <option value="300000">300000</option>
+                            <option value="350000">350000</option>
+                            <option value="400000">400000</option>
+                            <option value="450000">450000</option>
+                            <option value="500000">500000</option>
+                            <option value="550000">550000</option>
+                            <option value="custom">Anders</option>
+                        </select>
+                        <select id="tot" name="tot">
+                            <option value="50000">50000</option>
+                            <option value="75000">75000</option>
+                            <option value="100000">100000</option>
+                            <option value="150000">150000</option>
+                            <option value="200000">200000</option>
+                            <option value="250000">250000</option>
+                            <option value="300000">300000</option>
+                            <option value="350000">350000</option>
+                            <option value="400000">400000</option>
+                            <option value="450000">450000</option>
+                            <option value="500000">500000</option>
+                            <option value="550000">550000</option>
+                            <option value="custom">Anders</option>
+                        </select>
+                    </fieldset>
 
-					<div class="zoeken">Zoek</div>
+                    <div class="zoeken">Zoek</div>
 
-				</div>
-			</fieldset>
-		</form>
-	</section>
+                </div>
+            </fieldset>
+        </form>
+    </section>
 
-	<section class="paddingHolder">
+    <section class="paddingHolder">
 
-	<section class="overigInfo">
-		<a class="overigItem img1">
-			<p>Zoek een NVM-makelaar</p>
-			<img src="" alt="">
-		</a>
-	</section>
-	<section class="overigInfo">
-		<a class="overigItem img2">
-			<p>Zoek op de kaart</p>
-			<img src="" alt="">
-		</a>
-	</section>
-	<section class="overigInfo">
-		<a class="overigItem img3">
-			<p>Doe de waarde check</p>
-			<img src="" alt="">
-		</a>
-	</section>
+        <section class="overigInfo">
+            <a class="overigItem img1">
+                <p>Zoek een NVM-makelaar</p>
+            </a>
+        </section>
+        <section class="overigInfo">
+            <a class="overigItem img2">
+                <p>Zoek op de kaart</p>
+            </a>
+        </section>
+        <section class="overigInfo">
+            <a class="overigItem img3">
+                <p>Doe de waarde check</p>
+            </a>
+        </section>
 
 
-	<section class="carouselHolder">
-		<h2 class="fundaTitels">Woning in beeld</h2>
+        <section class="carouselHolder">
+            <h2 class="fundaTitels">Woning in beeld</h2>
 
-		<div class="carouselOverflow">
+            <div class="carouselOverflow">
 
-		<div class="carousel">
-			<article class="carouselItem">
-				<header class="carouselItemImage"></header>
-				<div class="carouselItemDetails">
-					<h3>Alkesingel 2</h3>
-					<address>
-						<p>
-							7927 AT Alteveer (Gem. De Wolden)
-						</p>
-					</address>
-					<p class="prijs">
-						€ 487.500 k.k.
-					</p>
-					<a href="index.html" class="makelaarLink">Jouw makelaar Sandra Scholten</a>
-				</div>
-			</article>
-			<article class="carouselItem">
-				<header class="carouselItemImage"></header>
-				<div class="carouselItemDetails">
-					<h3>Alkesingel 2</h3>
-					<address>
-						<p>
-							7927 AT Alteveer (Gem. De Wolden)
-						</p>
-					</address>
-					<p class="prijs">
-						€ 487.500 k.k.
-					</p>
-					<a href="index.html" class="makelaarLink">Jouw makelaar Sandra Scholten</a>
-				</div>
-			</article>
-			<article class="carouselItem">
-				<header class="carouselItemImage"></header>
-				<div class="carouselItemDetails">
-					<h3>Alkesingel 2</h3>
-					<address>
-						<p>
-							7927 AT Alteveer (Gem. De Wolden)
-						</p>
-					</address>
-					<p class="prijs">
-						€ 487.500 k.k.
-					</p>
-					<a href="index.html" class="makelaarLink">Jouw makelaar Sandra Scholten</a>
-				</div>
-			</article>
-			<article class="carouselItem">
-				<header class="carouselItemImage"></header>
-				<div class="carouselItemDetails">
-					<h3>Alkesingel 2</h3>
-					<address>
-						<p>
-							7927 AT Alteveer (Gem. De Wolden)
-						</p>
-					</address>
-					<p class="prijs">
-						€ 487.500 k.k.
-					</p>
-					<a href="index.html" class="makelaarLink">Jouw makelaar Sandra Scholten</a>
-				</div>
-			</article>
-			<article class="carouselItem">
-				<header class="carouselItemImage"></header>
-				<div class="carouselItemDetails">
-					<h3>Alkesingel 2</h3>
-					<address>
-						<p>
-							7927 AT Alteveer (Gem. De Wolden)
-						</p>
-					</address>
-					<p class="prijs">
-						€ 487.500 k.k.
-					</p>
-					<a href="index.html" class="makelaarLink">Jouw makelaar Sandra Scholten</a>
-				</div>
-			</article>
-		</div>
-		</div>
+                <div class="carousel">
+                    <article class="carouselItem">
+                        <header class="carouselItemImage"></header>
+                        <div class="carouselItemDetails">
+                            <h3>Alkesingel 2</h3>
+                            <address>
+                                <p>
+                                    7927 AT Alteveer (Gem. De Wolden)
+                                </p>
+                            </address>
+                            <p class="prijs">
+                                € 487.500 k.k.
+                            </p>
+                            <a class="makelaarLink" href="index.html">Jouw makelaar Sandra Scholten</a>
+                        </div>
+                    </article>
+                    <article class="carouselItem">
+                        <header class="carouselItemImage"></header>
+                        <div class="carouselItemDetails">
+                            <h3>Alkesingel 2</h3>
+                            <address>
+                                <p>
+                                    7927 AT Alteveer (Gem. De Wolden)
+                                </p>
+                            </address>
+                            <p class="prijs">
+                                € 487.500 k.k.
+                            </p>
+                            <a class="makelaarLink" href="index.html">Jouw makelaar Sandra Scholten</a>
+                        </div>
+                    </article>
+                    <article class="carouselItem">
+                        <header class="carouselItemImage"></header>
+                        <div class="carouselItemDetails">
+                            <h3>Alkesingel 2</h3>
+                            <address>
+                                <p>
+                                    7927 AT Alteveer (Gem. De Wolden)
+                                </p>
+                            </address>
+                            <p class="prijs">
+                                € 487.500 k.k.
+                            </p>
+                            <a class="makelaarLink" href="index.html">Jouw makelaar Sandra Scholten</a>
+                        </div>
+                    </article>
+                    <article class="carouselItem">
+                        <header class="carouselItemImage"></header>
+                        <div class="carouselItemDetails">
+                            <h3>Alkesingel 2</h3>
+                            <address>
+                                <p>
+                                    7927 AT Alteveer (Gem. De Wolden)
+                                </p>
+                            </address>
+                            <p class="prijs">
+                                € 487.500 k.k.
+                            </p>
+                            <a class="makelaarLink" href="index.html">Jouw makelaar Sandra Scholten</a>
+                        </div>
+                    </article>
+                    <article class="carouselItem">
+                        <header class="carouselItemImage"></header>
+                        <div class="carouselItemDetails">
+                            <h3>Alkesingel 2</h3>
+                            <address>
+                                <p>
+                                    7927 AT Alteveer (Gem. De Wolden)
+                                </p>
+                            </address>
+                            <p class="prijs">
+                                € 487.500 k.k.
+                            </p>
+                            <a class="makelaarLink" href="index.html">Jouw makelaar Sandra Scholten</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
 
-	</section>
+        </section>
 
-	<section>
-		<h2 class="fundaTitels">Heb je een vraag?</h2>
-		<a class="nostyle" href="#">
-			<article class="vragenItem">
-				<header class="headerImg">
+        <section>
+            <h2 class="fundaTitels">Heb je een vraag?</h2>
+            <a class="nostyle" href="#">
+                <article class="vragenItem">
+                    <header class="headerImg">
 
-				</header>
-				<p>
-					Op zoek naar een antwoord op al je vragen over het kopen of verkopen van een woning?
-				</p>
+                    </header>
+                    <p>
+                        Op zoek naar een antwoord op al je vragen over het kopen of verkopen van een woning?
+                    </p>
 
-				<p>
+                    <p>
 				<span>
 					Meer weten >
 				</span>
-				</p>
-			</article>
-		</a>
-	</section>
+                    </p>
+                </article>
+            </a>
+        </section>
 
 
-		<section>
-			<article class="koopenVerkoop">
-				<div class="centerHolder">
-					<h2 class="fundaTitelsWhite">
-						Ik koop en verkoop een huis
-					</h2>
-					<div class="praatButton">
-						<a href="">Praat me bij</a>
-					</div>
-				</div>
-			</article>
-		</section>
+        <section>
+            <article class="koopenVerkoop">
+                <div class="centerHolder">
+                    <h2 class="fundaTitelsWhite">
+                        Ik koop en verkoop een huis
+                    </h2>
+                    <div class="praatButton">
+                        <a href="">Praat me bij</a>
+                    </div>
+                </div>
+            </article>
+        </section>
 
 
-	<section>
-		<article>
-			<h2 class="fundaTitels">
-				Bereid je voor met deze verhalen en tips
-			</h2>
-			<div class="fundaIndex">
-				<p>Funda index: Gunstige tijd voor verkoops</p>
-				<a href="">Lees het artikel ></a>
-			</div>
-		</article>
-	</section>
+        <!--	In de breakppoints moet de html anders dat komt later wel	-->
+        <section>
+            <article>
+                <p href="#">
+                <h2 class="fundaTitels">
+                    Bereid je voor met deze verhalen en tips
+                </h2>
+                <div class="fundaIndex">
+                    <div class="fundaIndexText">
+                        <p>Funda index: Gunstige tijd voor verkoops</p>
+                        <p>Lees het artikel ></p>
+                    </div>
+                </div>
+                </a>
+            </article>
+        </section>
 
 
-	<section class="overigInfoRev">
-		<!--		5x dit element-->
-		<div class="overigItem">
-			<p></p>
-			<img src="" alt="">
-		</div>
-	</section>
+        <section class="overigInfoRev">
+            <!--		5x dit element-->
+            <div class="overigItem otherPadding">
+                <img alt="" src="./images/dit-moet-je-weten.jpg">
+                <p>Nieuwe coronaregels bij bezichtigen</p>
+            </div>
+            <div class="overigItem otherPadding">
+                <img alt="" src="./images/post.jpg">
+                <p>Overdracht uitstellen tot 2021?</p>
+            </div>
+            <div class="overigItem otherPadding">
+                <img alt="" src="./images/liever.jpg">
+                <p>Video: wat is een annuïteitenhypotheek?</p>
+            </div>
+            <div class="overigItem otherPadding">
+                <img alt="" src="./images/Nieuwe-maatregelen-van-invloed-op-bezichtigen-huis.jpg">
+                <p>Prinsjesdag 2020 en de woningmarkt</p>
+            </div>
+            <div class="overigItem otherPadding">
+                <img alt="" src="./images/Hypotheek-en-studieschuld-wat-nu.jpg">
+                <p>Hypotheek en studieschuld: wat nu?</p>
+            </div>
+        </section>
 
-	<section>
-		<article>
-			<header>
-				<img src="logo" alt="">
-				In business
-			</header>
-			<p>Kantoorruimte, winkelpand, logistiek complex of bedrijfsruimte? Vind het via funda in business</p>
-			<button>Bekijk het aanbod</button>
-		</article>
 
-		<article>
-			<header>
-				<img src="icon" alt="icon">
-			</header>
-			<p>
-				Ben je van plan je huis te verkopen?
-			</p>
-			<button>Alles over verkoop</button>
-		</article>
-	</section>
+        <aside>
+            <a class="banner fundaBusness" href="#">
+                <article>
+                    <header>
+                        <img alt="" src="./images/fundainbusiness-logo.svg">
+                    </header>
+                    <p>Kantoorruimte, winkelpand, logistiek complex of bedrijfsruimte? Vind het via funda in
+                        business</p>
 
-	</section>
+                    <p class="praatButton">Bekijk het aanbod</p>
 
-	<section>
-		<!-- Dit is even een ding moet even kijk hoe dit werkt	-->
-		<div>
-			Dienst
-		</div>
-	</section>
+                </article>
+            </a>
 
-	<section>
-		<div class="socialMedia">
-			<a href="#">Facebook</a>
-			<a href="#">twitter</a>
-			<a href="#">insta</a>
-			<a href="#">youtube</a>
-			<a href="#">linkedIn</a>
-		</div>
-		<div class="copyright"> &#9400; 2001-2020 Funda</div>
-		<div class="privacyHolder">
-			<!--		Dot toevoegen	-->
-			<a href="#">Privacy</a>
-			<a href="#">Cookies</a>
-			<a href="#">Voorwaard</a>
+            <a class="banner fundaVerkoop" href="#">
+                <article>
+                    <header>
+                        <img alt="" src="./images/funda-listing-sign.svg">
+                    </header>
+                    <p>Ben je van plan je huis te verkopen?</p>
 
-		</div>
-	</section>
+                    <p class="praatButton">Alles over verkopen</p>
 
+                </article>
+            </a>
+        </aside>
+
+    </section>
 </main>
+
+<footer>
+    <!-- Dit is even een ding moet even kijk hoe dit werkt	-->
+    <!--        met het open klappen    -->
+    <div class="footerContainer">
+        <nav>
+            <div class="paddingHolder footerpadding">
+            <div class="navDropdownContainer">
+                <span> 
+                <img src="./images/down.svg">
+                </span>
+                <p>Dienst</p>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="navDropdownContainer">
+                     <span>
+                <img src="./images/down.svg">
+                </span>
+                <p>informatie</p>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="navDropdownContainer">
+                     <span>
+                <img src="./images/down.svg">
+                </span>
+            <p>makelaars</p>
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+            <div class="navDropdownContainer">
+                     <span>
+                <img src="./images/down.svg">
+                </span>
+            <p>Over ons</p>
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <section class="socialMediaHolder">
+        <div class="socialMedia">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+
+        <div class="footer_overig">
+                <div class="copyright"> &#9400; 2001-2020 Funda</div>
+        <div class="privacyHolder">
+            <a href="#">Privacy</a>
+            <a href="#">Cookies</a>
+            <a href="#">Voorwaard</a>
+        </div>
+        </div>
+    </section>
+
+</footer>
+
+
+
 </body>
 
 <script src="scripts/script.js"></script>
