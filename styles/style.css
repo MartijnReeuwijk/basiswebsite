@@ -1,430 +1,488 @@
 /* CSS Document */
 
 @font-face {
-  font-family: nova;
-  src: url('../fonts/proximanova-regular.woff2') format('woff2');
+    font-family: nova;
+    src: url('../fonts/proximanova-regular.woff2') format('woff2');
 }
 
 
 *, *::after, *::before {
-  box-sizing:border-box;
-  margin: 0;
-  padding: 0;
-  font-family: nova,sans-serif;
-  color: #333;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: nova, sans-serif;
+    color: #333;
 }
-main{
-  max-width: 750px;
+
+main {
+    max-width: 750px;
 }
+
 a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 fieldset {
-  border: none;
+    border: none;
 }
+
 select {
-  border-radius: 2px;
+    border-radius: 2px;
 }
 
 .heroImageHolder {
-  overflow: hidden;
-  height: 200px;
-  position: relative;
-  display: flex;
-  background: linear-gradient(180deg,#e6f2f7 0,#e6f2f7 50%,#fff 90%);
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    display: flex;
+    background: linear-gradient(180deg, #e6f2f7 0, #e6f2f7 50%, #fff 90%);
 }
-.heroImageHouse{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 1;
-  top:0;
-  right: -200px;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url("../images/doorzon-rechts.svg");
+
+.heroImageHouse {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: -200px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/doorzon-rechts.svg");
 }
+
 .heroImageHolder h2 {
-  font-weight: 400;
-  color: #53241b;
-  justify-content: center;
-  align-self: center;
-  z-index: 2;
-  padding:0 20px;
-  width: 250px;
-}
-form{
-  border: none;
-  color: white;
-  background-color: #f7a100;
-}
-.selectedVT select{
-  margin: 10px 0 0 0;
-  border: none;
-}
-.filterButtonHolder, .inputHolder{
-  width: 100%;
-  padding: 1rem;
-
-}
-.zoeken{
-  width: 100%;
-  background-color:#0071b3;
-  margin: 10px 0;
-  text-align: center;
-  padding: 0 1.5em;
-  height: 2.75em;
-  line-height: 2.75em;
-  border-radius: 2px;
-}
-.inputHolder select{
-  width: 100%;
-  height: 50px;
-  padding: 0 10px;
+    font-weight: 400;
+    color: #53241b;
+    justify-content: center;
+    align-self: center;
+    z-index: 2;
+    padding: 0 20px;
+    width: 250px;
 }
 
-.plaatsHolder{
-  display: flex;
-  width: 100%;
-  border: none;
-}
-.plaatsHolder input{
-  width: 100%;
-  border: none;
-  border-radius: 2px;
-  padding: 0 10px;
-}
-.plaatsHolder select{
-  border: none;
-  width: 75px;
-  padding: 0 10px;
-  height: 50px;
+form {
+    border: none;
+    color: white;
+    background-color: #f7a100;
 }
 
-.filterButtonHolder ul{
-  list-style-type: none;
-  display:flex ;
+.selectedVT select {
+    margin: 10px 0 0 0;
+    border: none;
 }
+
+.filterButtonHolder, .inputHolder {
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.zoeken {
+    width: 100%;
+    background-color: #0071b3;
+    margin: 10px 0;
+    text-align: center;
+    padding: 0 1.5em;
+    height: 2.75em;
+    line-height: 2.75em;
+    border-radius: 2px;
+}
+
+.inputHolder select {
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.plaatsHolder {
+    display: flex;
+    width: 100%;
+    border: none;
+}
+
+.plaatsHolder input {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+
+.plaatsHolder select {
+    border: none;
+    width: 75px;
+    padding: 0 10px;
+    height: 50px;
+}
+
+.filterButtonHolder ul {
+    list-style-type: none;
+    display: flex;
+}
+
 .filterButtonHolder {
-  padding: 1rem 1rem 0 1rem;
-}
-.filterButtonHolder li{
-  padding: .5rem 1rem;
-  display: inline-block;
-  height: 50px;
-  line-height: 30px;
-  margin: 0;
-  border: none;
+    padding: 1rem 1rem 0 1rem;
 }
 
-.overigInfo{
-  width: 100%;
-  height: auto;
-  background-color: white;
-  display: flex;
+.filterButtonHolder li {
+    padding: .5rem 1rem;
+    display: inline-block;
+    height: 50px;
+    line-height: 30px;
+    margin: 0;
+    border: none;
 }
-.overigItem{
-  display: flex;
-  width: 100%;
-  color: #0071b3;
-  border-radius: 2px;
-  line-height: 15px;
-  padding: 1.125rem 4.0625rem 1.125rem 1.125rem;
-  margin-bottom: .5rem;
-  border: 1px solid #e6f2f7;
-  background-size: 44px 44px;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: right 1rem center;
+
+.overigInfo {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
 }
+
+.overigItem {
+    display: flex;
+    width: 100%;
+    color: #0071b3;
+    border-radius: 2px;
+    line-height: 15px;
+    padding: 1.125rem 4.0625rem 1.125rem 1.125rem;
+    margin-bottom: .5rem;
+    border: 1px solid #e6f2f7;
+    background-size: 44px 44px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+}
+
 .img1 {
-  background-image: url("../images/links-agents.svg");
-}
-.img2{
-  background-image: url("../images/links-map.svg");
-}
-.img3{
-  background-image: url("../images/links-value.svg");
+    background-image: url("../images/links-agents.svg");
 }
 
-.paddingHolder{
-  padding: 0 15px;
-  width: 100%;
-  overflow: hidden;
-  margin: 1rem 0;
+.img2 {
+    background-image: url("../images/links-map.svg");
 }
-.carouselHolder{
-  height: auto;
+
+.img3 {
+    background-image: url("../images/links-value.svg");
 }
-.carouselOverflow{
-  overflow: scroll;
+
+
+.paddingHolder {
+    padding: 0 15px;
+    width: 100%;
+    overflow: hidden;
+    margin: 1rem 0;
 }
-.carousel{
-  padding: 16px 0 0 0;
-  display: inline-flex;
+
+.carouselHolder {
+    height: auto;
 }
+
+.carouselOverflow {
+    overflow: scroll;
+}
+
+.carousel {
+    padding: 16px 0 0 0;
+    display: inline-flex;
+}
+
 .carouselHolder h2 {
 }
-.carouselItem{
-  width: calc(100vw - 100px);
-  overflow: hidden;
-  max-width: 400px;
-  height: auto;
-  padding-bottom: 20px;
-  margin-right: 10px;
+
+.carousel article {
+    width: calc(100vw - 100px);
+    overflow: hidden;
+    max-width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+    margin-right: 10px;
 }
 
-.carouselItemImage{
-  display: flex;
-  height: 250px;
-  width: 100%;
-  background-image: url("../images/house.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.carousel article header {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/house.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.carouselItemDetails{
-  padding: 10px 0;
-  display: block;
-}
-.carouselItemDetails * {
-  padding: 3px 0;
-}
-.prijs{
-  font-weight: bold;
-}
-.makelaarLink{
-  color: #0071b3;
-  text-decoration: none;
-  margin-top: 1em;
-  display: block;
-}
-.carouselItemDetails h3 {
-  color: #0071b3;
-}
-.carouselItemDetails address{
-  color:#333;
-}
-.fundaTitels{
-  padding: 10px 0;
-}
-.nostyle{
-  color: #333;
-  text-decoration: none;
+.carousel article header div {
+    padding: 10px 0;
+    display: block;
 }
 
-.vragenItem{
-  width: 100%;
-  height: auto;
-  color: #333;
-
-  font-size: 1rem;
-  line-height: 1.5rem;
+.carousel article * {
+    padding: 3px 0;
 }
+
+/*Dit wilde ik doen met een :not selector op address maar werkte niet helemaar*/
+.prijs {
+    font-weight: bold;
+}
+
+.carousel article div a {
+    color: #0071b3;
+    text-decoration: none;
+    margin-top: 1em;
+    display: block;
+}
+
+.carousel article div h3 {
+    color: #0071b3;
+}
+
+.carousel article header div address {
+    color: #333;
+}
+
+
+.fundaTitels {
+    padding: 10px 0;
+}
+
+.nostyle {
+    color: #333;
+    text-decoration: none;
+}
+
+.vragenItem {
+    width: 100%;
+    height: auto;
+    color: #333;
+
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
 .vragenItem p {
-  margin-top: .75rem;
-  margin-bottom: .375em;
+    margin-top: .75rem;
+    margin-bottom: .375em;
 }
+
 .vragenItem span {
-  color: #0071b3;
-  font-weight: bold;
+    color: #0071b3;
+    font-weight: bold;
 }
 
-.headerImg{
-  width: 100%;
-  height: 245px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url("https://assets.fstatic.nl/master_3303/assets/components/content-platform-banner/images/wij_helpen_je_met.jpg");
+.headerImg {
+    width: 100%;
+    height: 245px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://assets.fstatic.nl/master_3303/assets/components/content-platform-banner/images/wij_helpen_je_met.jpg");
 }
-.koopenVerkoop{
-  width: 100%;
-  color: white;
-  height: 245px;
-  display: flex;
-  justify-content: center;
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url("https://www.funda-consument.nl.kpnis.nl/upload/8c74c38c-a8d7-402c-b15b-c0c49a941796_doorstromer%401x.jpg");
+.koopenVerkoop {
+    width: 100%;
+    color: white;
+    height: 245px;
+    display: flex;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://www.funda-consument.nl.kpnis.nl/upload/8c74c38c-a8d7-402c-b15b-c0c49a941796_doorstromer%401x.jpg");
 }
-.centerHolder{
-  position: relative;
-  padding: 0 1.5rem;
-  text-align: center;
-  align-self: center;
-  height: 100px;
+
+.centerHolder {
+    position: relative;
+    padding: 0 1.5rem;
+    text-align: center;
+    align-self: center;
+    height: 100px;
 }
+
 .centerHolder a {
-  text-decoration: none;
-  color:white;
-  padding: 5px;
-}
-.praatButton{
-  display: inline-flex;
-  padding: .5rem 1rem;
-  border-radius: 2px;
-  border: 2px solid white;
-
+    text-decoration: none;
+    color: white;
+    padding: 5px;
 }
 
-.fundaIndex{
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 200px;
-  position: relative;
-  display: flex;
+.praatButton {
+    display: inline-flex;
+    padding: .5rem 1rem;
+    border-radius: 2px;
+    border: 2px solid white;
+}
 
-  background-image: url("../images/fundaBalance.png");
+.fundaIndex {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    display: flex;
+    background-image: url("../images/fundaBalance.png");
 }
-.fundaIndexText{
-  width: 100%;
-  padding: 20px;
-  height: 100%;
-  justify-content: center;
-  color: white;
-}
-.fundaIndexText p{
-  font-size: 1.5em;
 
+.fundaIndexText {
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    justify-content: center;
+    color: white;
 }
+
+.fundaIndexText p {
+    font-size: 1.5em;
+}
+
 .fundaIndexText a {
-
 }
 
 .overigInfoRev {
-  margin-top: 10px;
+    margin-top: 10px;
 }
-.overigItem img{
-  height: 100%;
-  width: 75px;
-  padding:0 10px 0 0;
+
+.overigItem img {
+    height: 100%;
+    width: 75px;
+    padding: 0 10px 0 0;
 }
-.banner{
-  width: 100%;
-  display: block;
-  height: 250px;
-  margin: 20px 0;
-  justify-content: center;
+
+.banner {
+    width: 100%;
+    display: block;
+    height: 250px;
+    margin: 20px 0;
+    justify-content: center;
 }
+
 .banner:first-of-type article {
-  padding: 10px;
+    padding: 10px;
 }
+
 .banner:first-of-type article img {
-  width: 50%;
+    width: 50%;
 }
-.banner:first-of-type article  {
-  text-align: center;
-  font-size: 1rem;
+
+.banner:first-of-type article {
+    text-align: center;
+    font-size: 1rem;
 }
+
 .banner header {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  /* width: 50%; */
-  padding: 20px 0;
-  display: flex;
-  align-content: center;
-}
-.praatButton{
-  margin-top: 1.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  border-color: #fff;
-  color: #fff;
-  padding: .5em 1.5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    padding: 20px 0;
+    display: flex;
+    align-content: center;
 }
 
-.fundaBusness{
-  background-image: url("../images/fib-banner-silhouet.svg");
-  background-color: #0071b3;
-  background-size: auto calc(100% - 1.5rem);
+.praatButton {
+    margin-top: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: #fff;
+    color: #fff;
+    padding: .5em 1.5em;
 }
+
+.fundaBusness {
+    background-image: url("../images/fib-banner-silhouet.svg");
+    background-color: #0071b3;
+    background-size: auto calc(100% - 1.5rem);
+}
+
 .fundaVerkoop {
-  background-image: url("../images/home-banner-background.svg");
-  background-color: #e6f2f7;
-  background-size: auto calc(100% - 1.5rem);
-  color: #333333;
-  text-align: center;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-bottom: 1.75rem;
+    background-image: url("../images/home-banner-background.svg");
+    background-color: #e6f2f7;
+    background-size: auto calc(100% - 1.5rem);
+    color: #333333;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.75rem;
 }
-.fundaVerkoop .praatButton{
-  border-color: #0071b3;
-  color: #0071b3;
-  background-color: #fff;
-  box-shadow: 0 0.0625em 0 rgba(0,0,0,.1), inset 0 0 0 rgba(0,0,0,.1);
+
+.fundaVerkoop .praatButton {
+    border-color: #0071b3;
+    color: #0071b3;
+    background-color: #fff;
+    box-shadow: 0 0.0625em 0 rgba(0, 0, 0, .1), inset 0 0 0 rgba(0, 0, 0, .1);
 }
 
 
-footer{
+footer {
 
-  width: 100%;
-  background-color:#ededed ;
+    width: 100%;
+    background-color: #ededed;
 }
 
-.footerContainer{}
-.socialMediaHolder{
-  width: 100%;
-  padding: 10px 15px;
+.footerContainer {
 }
-.socialMedia{
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0 0 1em;
-  text-align: center;
+
+.socialMediaHolder {
+    width: 100%;
+    padding: 10px 15px;
 }
+
+.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 1em;
+    text-align: center;
+}
+
 .socialMedia a {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  background-size: 50%;
-  background-position: center;
-  background-repeat:no-repeat ;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .socialMedia a:nth-of-type(1) {
-  background-image: url("../images/facebook.svg");
+    background-image: url("../images/facebook.svg");
 }
+
 .socialMedia a:nth-of-type(2) {
-  background-image: url("../images/twitter.svg");
+    background-image: url("../images/twitter.svg");
 }
+
 .socialMedia a:nth-of-type(3) {
-  background-image: url("../images/insta.svg");
+    background-image: url("../images/insta.svg");
 
 }
+
 .socialMedia a:nth-of-type(4) {
-  background-image: url("../images/youtube.svg");
+    background-image: url("../images/youtube.svg");
 
 }
+
 .socialMedia a:nth-of-type(5) {
-  background-image: url("../images/linkedin.svg");
+    background-image: url("../images/linkedin.svg");
 }
-.navDropdownContainer{
-  border-top:1px solid #ccc;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  padding: .25rem 0;
-  line-height: 2.5rem;
+
+.navDropdownContainer {
+    border-top: 1px solid #ccc;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: .25rem 0;
+    line-height: 2.5rem;
 
 }
 
 
-.navDropdownContainer span{
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-right: .5rem;
+.navDropdownContainer span {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .5rem;
 }
-.navDropdownContainer ul{
-  list-style-type: none;
+
+.navDropdownContainer ul {
+    list-style-type: none;
 }
 
 /*.navDropdownContainer p:before{*/
@@ -432,47 +490,51 @@ footer{
 /*  margin-left: 6px;*/
 /*  content: url("../images/down.svg");*/
 /*}*/
-.navDropdownContainer:last-of-type{
-  border-bottom:1px solid #ccc;
+.navDropdownContainer:last-of-type {
+    border-bottom: 1px solid #ccc;
 
 }
-.footer_overig{
-  text-align: center;
-  padding: 10px;
+
+.footer_overig {
+    text-align: center;
+    padding: 10px;
 }
-.privacyHolder a{
-  color:#0071b3 ;
+
+.privacyHolder a {
+    color: #0071b3;
 }
-.copyright{
-  padding-bottom: 10px;
+
+.copyright {
+    padding-bottom: 10px;
 }
-.privacyHolder a:nth-of-type(2):before{
-  margin-right: 6px;
-  margin-left: 6px;
-  content: "•";
+
+.privacyHolder a:nth-of-type(2):before {
+    margin-right: 6px;
+    margin-left: 6px;
+    content: "•";
 }
-.privacyHolder a:nth-of-type(2):after{
-  margin-right: 6px;
-  margin-left: 6px;
-  content: "•";
+
+.privacyHolder a:nth-of-type(2):after {
+    margin-right: 6px;
+    margin-left: 6px;
+    content: "•";
 }
 
 .footerpadding {
-  padding-top: 1.75rem;
+    padding-top: 1.75rem;
 }
 
 
-
-.otherPadding{
-  padding: 10px;
+.otherPadding {
+    padding: 10px;
 }
+
 /*https://www.funda-consument.nl.kpnis.nl/upload/8c74c38c-a8d7-402c-b15b-c0c49a941796_doorstromer%401x.jpg*/
 
 
-
-.active{
-  background-color: #f8c463;
-  border-radius: 2px;
-  color: #53241b;
+.active {
+    background-color: #f8c463;
+    border-radius: 2px;
+    color: #53241b;
 }
 
