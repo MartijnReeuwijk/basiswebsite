@@ -38,7 +38,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
 Alles is goed te doen, het enige lastige de de gestackete SVG en carusell.
 Huren is ook een anderen pagina ipv kopen. Dit hadden ze ook kunnen oplossen met een Javascript functie of framework inlaat ipv een gehele nieuwe pagina.
 
@@ -46,7 +45,9 @@ Huren is ook een anderen pagina ipv kopen. Dit hadden ze ook kunnen oplossen met
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
-
+Alles gaat goed.
+<img src="readme_img/Screenshot_4.png" width="375px" alt="Funda huis page">
+<img src="readme_img/Screenshot_5.png" width="375px" alt="Funda huis page">
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
