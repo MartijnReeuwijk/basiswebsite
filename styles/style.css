@@ -11,7 +11,6 @@
     margin: 0;
     padding: 0;
     font-family: nova, sans-serif;
-    color: #333;
 }
 
 main {
@@ -123,6 +122,7 @@ form {
 
 .filterButtonHolder {
     padding: 1rem 1rem 0 1rem;
+    height: auto;
 }
 
 .filterButtonHolder li {
@@ -132,6 +132,8 @@ form {
     line-height: 30px;
     margin: 0;
     border: none;
+    color: white;
+    font-weight: bold;
 }
 
 .overigInfo {
@@ -168,77 +170,6 @@ form {
     background-image: url("../images/links-value.svg");
 }
 
-
-.paddingHolder {
-    padding: 0 15px;
-    width: 100%;
-    overflow: hidden;
-    margin: 1rem 0;
-}
-
-.carouselHolder {
-    height: auto;
-}
-
-.carouselOverflow {
-    overflow: scroll;
-}
-
-.carousel {
-    padding: 16px 0 0 0;
-    display: inline-flex;
-}
-
-.carouselHolder h2 {
-}
-
-.carousel article {
-    width: calc(100vw - 100px);
-    overflow: hidden;
-    max-width: 400px;
-    height: auto;
-    padding-bottom: 20px;
-    margin-right: 10px;
-}
-
-.carousel article header {
-    display: flex;
-    height: 250px;
-    width: 100%;
-    background-image: url("../images/house.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.carousel article header div {
-    padding: 10px 0;
-    display: block;
-}
-
-.carousel article * {
-    padding: 3px 0;
-}
-
-/*Dit wilde ik doen met een :not selector op address maar werkte niet helemaar*/
-.prijs {
-    font-weight: bold;
-}
-
-.carousel article div a {
-    color: #0071b3;
-    text-decoration: none;
-    margin-top: 1em;
-    display: block;
-}
-
-.carousel article div h3 {
-    color: #0071b3;
-}
-
-.carousel article header div address {
-    color: #333;
-}
 
 
 .fundaTitels {
@@ -297,6 +228,7 @@ form {
     text-align: center;
     align-self: center;
     height: 100px;
+    color: white;
 }
 
 .centerHolder a {
@@ -324,14 +256,25 @@ form {
 
 .fundaIndexText {
     width: 100%;
-    padding: 20px;
     height: 100%;
     justify-content: center;
     color: white;
+    position: relative;
 }
-
+.fundaIndexText div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
 .fundaIndexText p {
     font-size: 1.5em;
+     margin-top: .5em;
+    font-weight: 600;
+}
+.fundaIndexText p:last-of-type{
+    font-size: 1rem;
+
 }
 
 .fundaIndexText a {
@@ -412,122 +355,6 @@ form {
 }
 
 
-footer {
-
-    width: 100%;
-    background-color: #ededed;
-}
-
-.footerContainer {
-}
-
-.socialMediaHolder {
-    width: 100%;
-    padding: 10px 15px;
-}
-
-.socialMedia {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 0 1em;
-    text-align: center;
-}
-
-.socialMedia a {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.socialMedia a:nth-of-type(1) {
-    background-image: url("../images/facebook.svg");
-}
-
-.socialMedia a:nth-of-type(2) {
-    background-image: url("../images/twitter.svg");
-}
-
-.socialMedia a:nth-of-type(3) {
-    background-image: url("../images/insta.svg");
-
-}
-
-.socialMedia a:nth-of-type(4) {
-    background-image: url("../images/youtube.svg");
-
-}
-
-.socialMedia a:nth-of-type(5) {
-    background-image: url("../images/linkedin.svg");
-}
-
-.navDropdownContainer {
-    border-top: 1px solid #ccc;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    padding: .25rem 0;
-    line-height: 2.5rem;
-
-}
-
-
-.navDropdownContainer span {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-right: .5rem;
-}
-
-.navDropdownContainer ul {
-    list-style-type: none;
-}
-
-/*.navDropdownContainer p:before{*/
-/*  margin-right: 6px;*/
-/*  margin-left: 6px;*/
-/*  content: url("../images/down.svg");*/
-/*}*/
-.navDropdownContainer:last-of-type {
-    border-bottom: 1px solid #ccc;
-
-}
-
-.footer_overig {
-    text-align: center;
-    padding: 10px;
-}
-
-.privacyHolder a {
-    color: #0071b3;
-}
-
-.copyright {
-    padding-bottom: 10px;
-}
-
-.privacyHolder a:nth-of-type(2):before {
-    margin-right: 6px;
-    margin-left: 6px;
-    content: "•";
-}
-
-.privacyHolder a:nth-of-type(2):after {
-    margin-right: 6px;
-    margin-left: 6px;
-    content: "•";
-}
-
-.footerpadding {
-    padding-top: 1.75rem;
-}
-
-
-.otherPadding {
-    padding: 10px;
-}
 
 /*https://www.funda-consument.nl.kpnis.nl/upload/8c74c38c-a8d7-402c-b15b-c0c49a941796_doorstromer%401x.jpg*/
 
@@ -535,6 +362,6 @@ footer {
 .active {
     background-color: #f8c463;
     border-radius: 2px;
-    color: #53241b;
+    color: #53241b !important;
 }
 

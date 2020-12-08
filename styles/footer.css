@@ -1,0 +1,123 @@
+.paddingHolder {
+    padding: 0 15px;
+    width: 100%;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+footer {
+
+    width: 100%;
+    background-color: #ededed;
+}
+
+.footerContainer {
+}
+
+.socialMediaHolder {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.socialMedia a {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.socialMedia a:nth-of-type(1) {
+    background-image: url("../images/facebook.svg");
+}
+
+.socialMedia a:nth-of-type(2) {
+    background-image: url("../images/twitter.svg");
+}
+
+.socialMedia a:nth-of-type(3) {
+    background-image: url("../images/insta.svg");
+
+}
+
+.socialMedia a:nth-of-type(4) {
+    background-image: url("../images/youtube.svg");
+
+}
+
+.socialMedia a:nth-of-type(5) {
+    background-image: url("../images/linkedin.svg");
+}
+
+.navDropdownContainer {
+    border-top: 1px solid #ccc;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: .25rem 0;
+    line-height: 2.5rem;
+
+}
+
+
+.navDropdownContainer span {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .5rem;
+}
+
+.navDropdownContainer ul {
+    list-style-type: none;
+}
+
+/*.navDropdownContainer p:before{*/
+/*  margin-right: 6px;*/
+/*  margin-left: 6px;*/
+/*  content: url("../images/down.svg");*/
+/*}*/
+.navDropdownContainer:last-of-type {
+    border-bottom: 1px solid #ccc;
+
+}
+
+.footer_overig {
+    text-align: center;
+    padding: 10px;
+}
+
+.privacyHolder a {
+    color: #0071b3;
+}
+
+.copyright {
+    padding-bottom: 10px;
+}
+
+.privacyHolder a:nth-of-type(2):before {
+    margin-right: 6px;
+    margin-left: 6px;
+    content: "•";
+}
+
+.privacyHolder a:nth-of-type(2):after {
+    margin-right: 6px;
+    margin-left: 6px;
+    content: "•";
+}
+
+.footerpadding {
+    padding-top: 1.75rem;
+}
+
+
+.otherPadding {
+    padding: 10px;
+}

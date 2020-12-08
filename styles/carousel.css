@@ -1,0 +1,65 @@
+
+.carouselHolder {
+    height: auto;
+}
+
+.carouselOverflow {
+    overflow: scroll;
+}
+
+.carousel {
+    padding: 16px 0 0 0;
+    display: inline-flex;
+}
+
+.carouselHolder h2 {
+}
+
+.carousel article {
+    width: calc(100vw - 100px);
+    overflow: hidden;
+    max-width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+.carousel article header {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/house.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel article header div {
+    padding: 10px 0;
+    display: block;
+}
+
+.carousel article * {
+    padding: 3px 0;
+}
+
+/*Dit wilde ik doen met een :not selector op address maar werkte niet helemaar*/
+.prijs {
+    font-weight: bold;
+}
+
+.carousel article div a {
+    color: #0071b3;
+    text-decoration: none;
+    margin-top: 1em;
+    display: block;
+}
+
+.carousel article div h3 {
+    color: #0071b3;
+}
+
+.carousel article header div address {
+    color: #333;
+}
+
