@@ -1,14 +1,12 @@
 # Procesverslag
 **Auteur:** Martijn Reeuwijk
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
-
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://css-tricks.com/almanac/
+2. https://developer.mozilla.org/nl/
+3. https://developer.mozilla.org/nl/docs/Web/HTML/Element/dl
+4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+5. https://css-tricks.com/almanac/properties/t/text-align/
 
 
 
@@ -29,9 +27,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 2 (week 5)
-
--same as voortgang 1-
-
+Gaat goed eerste pagina is op basis af, moet nog Media Queries toevoegen samen met de Javascript
+Pagina 2 is redelijk opweg naar een complete pagina. Wanneer dit is gedaan zal ik CSS en JS toevoegen aan al de paginas om het naar een hoger niveau tillen en het algehele product teverbeteren.
+<img src="readme_img/Screenshot_6.png" width="375px" alt="Funda tweede pagina">
 
 
 ## Voortgang 1 (week 3)
