@@ -8,7 +8,8 @@
 4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 5. https://css-tricks.com/almanac/properties/t/text-align/
 6. https://www.funda.nl/koop/scherpenzeel-ge/huis-41055429-geerhoek-32/
-6. https://www.funda.nl
+7. https://www.funda.nl
+8. https://www.w3schools.com/css/css_combinators.asp
 
 
 
@@ -18,7 +19,7 @@
 zonder classes werken gaat oke, het houdt je HTML wel schoner maar in mij geval gaat het tenkosten van de CSS. Door deze methode zijn er niet veel herbruikbaren classes zoals bij een icoon.
 
 
-
+Met de css selectors zonder classes ben ik er wel achter gekomen dat de > selector erg handig is en heb deze ook veel gebuikt.
 
 
 **Screenshot(s):**

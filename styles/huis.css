@@ -37,33 +37,79 @@ select {
     position: relative;
 }
 
-.shares {
+.selectedHouseHolder > ul {
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 200%);
 }
+.selectedHouseHolder > ul li {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin: 10px 15px;
+}
+.selectedHouseHolder > ul li svg {
+    width: auto;
+    fill: white;
+    transition: all 500ms cubic-bezier(.23,1,.32,1),box-shadow 500ms cubic-bezier(.23,1,.32,1);
+}
+.selectedHouseHolder > ul li svg:hover {
+    fill: #0071b3;
+}
+.selectedHouseHolder > ul li:nth-of-type(2) svg:hover {
+    fill: red;
+    transform: scale(1.5);
+}
+.selectedHouseHolder > ul li:nth-of-type(2) svg:hover path:nth-of-type(2){
+    fill: darkred;
+}
+
 
 .selectedHouseHolder ul {
     position: absolute;
     display: flex;
     width: 100%;
     list-style-type: none;
-    height: 50px;
     justify-content: flex-end;
 
 }
-.selectedHouseHolder ul li {
+.selectedHouseHolder .tab ul li {
     padding: .7rem;
 }
+
 
 .selectedHouseHolder .tab {
     height: 50px;
 }
 .selectedHouseHolder .tab ul li {
-height: 50px;
     width: 100%;
     text-align: center;
     border-bottom: 1px solid #e6f2f7;
 }
+.selectedHouseHolder .tab ul li span{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/grond.svg");
+
+    display: block;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: auto auto .25rem;
+
+
+}
+.selectedHouseHolder .tab ul li:nth-of-type(2) span{
+    background-image: url("../images/reload.svg");
+    transition: all 500ms cubic-bezier(.23,1,.32,1),box-shadow 500ms cubic-bezier(.23,1,.32,1);
+
+}
+.selectedHouseHolder .tab ul li:nth-of-type(2) span:hover{
+    transform: rotate(-120deg);
+}
+.selectedHouseHolder .tab ul li:nth-of-type(3) span{
+    background-image: url("../images/playbutton.svg");
+}
+
 .selectedHouseHolder .tab ul li:nth-of-type(2) {
     border-left: 1px solid #e6f2f7;
     border-right: 1px solid #e6f2f7;
