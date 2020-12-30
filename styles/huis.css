@@ -10,10 +10,14 @@
     margin: 0;
     padding: 0;
     font-family: nova, sans-serif;
+    list-style-type: none;
 }
 
 main {
     max-width: 750px;
+}
+section{
+    margin-bottom: 1.5rem;
 }
 
 a {
@@ -71,4 +75,296 @@ height: 50px;
     background-position: center;
     background-size: cover;
     background-image: url("../images/huis.jpg");
+}
+
+
+.houseDetails article{
+    border-bottom: 1px solid #ededed;
+    margin: 0 0 10px 0;
+}
+h3,h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+dl span {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+.kenmerken dt{
+    margin: 0;
+    padding: .5rem 0 0;
+    color: #999;
+}
+.kenmerken dd {
+    margin: 0;
+    padding: 0 0 .5rem;
+}
+
+.activeit{
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+
+    display: flex;
+    justify-content:center ;
+    padding: 1rem 0;
+
+}
+.activeit div {
+    margin: 10px 0;
+    text-align: center;
+    width: 33%;
+}
+/*Svg icons*/
+.activeit div svg {
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+    fill:#999;
+}
+.activeit div:nth-of-type(2) {
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+
+}
+.indebuurt ul li a {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-top: 1px solid #ededed;
+     color: #0071b3;
+ }
+.indebuurt ul li:last-of-type a{
+    border: 0;
+}
+.indebuurt ul li a div {
+    display: flex;
+    align-items: center;
+}
+.indebuurt ul li a div p {
+    margin: 0 10px;
+}
+.imageIcon{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.bag{
+    background-image: url("../images/bag.svg");
+}
+.enlarge{
+    background-image: url("../images/enlarge.svg");
+}
+.mand{
+     background-image: url("../images/mand.svg");
+ }
+.bus{
+    background-image: url("../images/bus.svg");
+}
+.got_to_arrow{
+    background-image: url("../images/arrow.svg");
+}
+
+
+
+.reistijd{
+    text-align: center;
+
+}
+.reistijd article {
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    padding: 25px 0;
+
+    margin: 15px 0;
+}
+.reistijd article p {
+    padding: 25px 0;
+}
+.reistijd div a{
+color: #0071b3;
+    display: flex;
+    padding: .5rem 0;
+    margin-top: 1rem;
+}
+.reistijd div a span{
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: -.25em;
+    margin-right: .5em;
+    background-image: url("../images/plus.svg");
+}
+
+
+woningmarktCarousel {
+    width: 100%;
+}
+.woningmarktCarousel div {
+    display: inline-flex;
+    overflow: scroll;
+    padding: 3px;
+}
+
+.woningmarktCarousel article{
+    width: calc(100vw - 50px);
+    margin: 0 15px 0 0;
+    min-height: 150px;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.12), 0 1px 4px 0 rgba(0,0,0,.16), 0 2px 4px -2px rgba(0,0,0,.24);
+    height: 100%;
+}
+.woningmarktCarousel article header{
+    border: 1px solid #ededed;
+    padding: .5rem .75rem;
+    display: flex;
+}
+.woningmarktCarousel article header h2{
+    padding: 0;
+    margin: 0;
+}
+.woningmarktCarousel article header svg{
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+    margin-right: .5rem;
+
+}
+.woningmarktCarousel article section{
+    padding: .5rem .75rem;
+    margin: 0;
+
+}
+.woningmarktCarousel article section {
+    padding: 1.5rem  .75rem;
+
+}
+.woningmarktCarousel article section p:nth-of-type(even) {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+.showmore{
+    height: 50px;
+    overflow: hidden;
+}
+.arrowLeft{
+    width: 100%;
+    display: flex;
+    color: #333333;
+}
+.arrowLeft span{
+    width: 20px;
+}
+
+.pill{
+    font-size: .75rem;
+    background-color: #60c5f8;
+    color: white;
+    border-radius: 12px;
+    padding: .125rem .5rem;
+}
+
+.makelaars{
+    border: 1px solid #e6f2f7;
+    background-color: #f5fafc;
+    color: #0071b3;
+}
+.makelaars header{
+    padding: 0 1.5rem;
+    background-color: #e6f2f7;
+    color: #333;
+    width: 100%;
+    display: inline-block;
+    line-height: 3.5rem;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+}
+.makelaars h2{
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    position: relative;
+}
+.makelaars article{
+    padding: 1.5rem;
+}
+.makelaars article:last-of-type{
+    background-color: #fff;
+    padding: .5rem 0;
+}
+.makelaars div:last-of-type{
+    height: 2.75em;
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: .125em;
+    white-space: nowrap;
+    transition: background .25s cubic-bezier(.23,1,.32,1),box-shadow .25s cubic-bezier(.23,1,.32,1);
+    background-color: #f7a100;
+    color: #fff;
+    box-shadow: 0 0.0625em 0 rgba(0,0,0,.1), inset 0 0 0 rgba(0,0,0,.1);
+    text-align: center;
+}
+.makelaars div:last-of-type a{
+    align-self: center;
+}
+
+
+/*Zelfde style op twee elementen zo gedaan ipv een class want het blijft op deze manier in style met de rest*/
+/*De enige class is de main section holder*/
+
+
+.makelaars ul{
+    margin: 0 1.5rem;
+}
+.makelaars li, .extrahuisOpties li{
+    text-decoration: none;
+    color: #0071b3;
+    transition: color .25s cubic-bezier(.23,1,.32,1);
+    padding: .5em 0;
+    width: auto;
+    max-width: 20rem;
+    display: flex;
+    text-align: left;
+    line-height: 1.75rem;
+    box-shadow: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.makelaars li span, .extrahuisOpties li span{
+    fill: #0071b3;
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+.makelaars li:nth-of-type(1) span{
+    background-image: url("../images/talk.svg");
+}
+.makelaars li:nth-of-type(2) span{
+    background-image: url("../images/plus.svg");
+}
+.makelaars li:nth-of-type(3) span{
+    background-image: url("../images/downloadFile.svg");
+}
+
+.extrahuisOpties li:nth-of-type(1) span{
+    background-image: url("../images/heart.svg");
+}
+.extrahuisOpties li:nth-of-type(2) span{
+    background-image: url("../images/share.svg");
+}
+.extrahuisOpties li:nth-of-type(3) span{
+    background-image: url("../images/printer.svg");
+}
+.extrahuisOpties li:nth-of-type(4) span{
+    background-image: url("../images/sign.svg");
+}
+.extrahuisOpties li:nth-of-type(5) span{
+    background-image: url("../images/alarm.svg");
 }

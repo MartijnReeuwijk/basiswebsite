@@ -7,12 +7,19 @@
 3. https://developer.mozilla.org/nl/docs/Web/HTML/Element/dl
 4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 5. https://css-tricks.com/almanac/properties/t/text-align/
+6. https://www.funda.nl/koop/scherpenzeel-ge/huis-41055429-geerhoek-32/
+6. https://www.funda.nl
 
 
 
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+zonder classes werken gaat oke, het houdt je HTML wel schoner maar in mij geval gaat het tenkosten van de CSS. Door deze methode zijn er niet veel herbruikbaren classes zoals bij een icoon.
+
+
+
+
 
 **Screenshot(s):**
 
@@ -24,6 +31,12 @@
 
 -same as voortgang 1-
 
+
+Feedback
+Headers
+Heroimg mag een img tag
+nav naar header ipv main
+dt /dd /dl update naar DD
 
 
 ## Voortgang 2 (week 5)
