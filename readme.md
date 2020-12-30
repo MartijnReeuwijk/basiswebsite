@@ -21,6 +21,8 @@ zonder classes werken gaat oke, het houdt je HTML wel schoner maar in mij geval 
 
 Met de css selectors zonder classes ben ik er wel achter gekomen dat de > selector erg handig is en heb deze ook veel gebuikt.
 
+Funda heeft veel SVG's deze heb ik in geladen als background en soms als SVG data in de HTML. door het in teladen als een SVG kan je hover er opzetten en de code dynamic aanpassen.
+
 
 **Screenshot(s):**
 

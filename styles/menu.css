@@ -54,6 +54,7 @@ main nav {
 }
 
 .fakeMenu {
+    cursor: pointer;
     width: 25px;
     background-repeat: no-repeat;
     background-position: center;

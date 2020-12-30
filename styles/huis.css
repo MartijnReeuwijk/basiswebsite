@@ -33,6 +33,14 @@ select {
     border-radius: 2px;
 }
 
+h3,h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
 .selectedHouseHolder {
     position: relative;
 }
@@ -64,7 +72,7 @@ select {
 }
 
 
-.selectedHouseHolder ul {
+.selectedHouseHolder > ul {
     position: absolute;
     display: flex;
     width: 100%;
@@ -72,14 +80,22 @@ select {
     justify-content: flex-end;
 
 }
+.tab{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: flex-end;
+    color: #0071b3;
+}
+.tab ul {
+    width: 100%;
+    display: flex;
+}
 .selectedHouseHolder .tab ul li {
     padding: .7rem;
+    cursor: pointer;
 }
 
-
-.selectedHouseHolder .tab {
-    height: 50px;
-}
 .selectedHouseHolder .tab ul li {
     width: 100%;
     text-align: center;
@@ -128,13 +144,36 @@ select {
     border-bottom: 1px solid #ededed;
     margin: 0 0 10px 0;
 }
-h3,h2 {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    margin-top: 0;
-    margin-bottom: .5rem;
-    font-weight: 600;
+.houseDetails article ul{
+    display: flex;
 }
+.houseDetails article ul li{
+    display: inherit;
+    width: 33.3%;
+    margin: 5px;
+}
+
+.houseDetails article ul li span{
+ width: 25px;
+    height: 25px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/square.svg");
+
+}
+.houseDetails article ul li span svg path{
+    fill: #999;
+}
+.houseDetails article ul li:nth-of-type(2) span{
+    background-image: url("../images/floorplan.svg");
+}
+.houseDetails article ul li:nth-of-type(3) span{
+    background-image: url("../images/bed.svg");
+}
+
+
 dl span {
     display: block;
     border-bottom: 1px solid #ededed;
@@ -246,9 +285,7 @@ color: #0071b3;
 }
 
 
-woningmarktCarousel {
-    width: 100%;
-}
+
 .woningmarktCarousel div {
     display: inline-flex;
     overflow: scroll;
@@ -257,6 +294,7 @@ woningmarktCarousel {
 
 .woningmarktCarousel article{
     width: calc(100vw - 50px);
+    max-width: 350px;
     margin: 0 15px 0 0;
     min-height: 150px;
     border-radius: 4px;
@@ -301,6 +339,7 @@ woningmarktCarousel {
     width: 100%;
     display: flex;
     color: #333333;
+    overflow: hidden;
 }
 .arrowLeft span{
     width: 20px;
