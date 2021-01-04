@@ -16,9 +16,10 @@
 main {
     max-width: 750px;
 }
-section{
+section:not(.showmore){
     margin-bottom: 1.5rem;
 }
+
 
 a {
     text-decoration: none;
@@ -174,6 +175,7 @@ h3,h2 {
 }
 
 
+
 dl span {
     display: block;
     border-bottom: 1px solid #ededed;
@@ -288,7 +290,7 @@ color: #0071b3;
 
 .woningmarktCarousel div {
     display: inline-flex;
-    overflow: scroll;
+    overflow: hidden;
     padding: 3px;
 }
 
@@ -332,8 +334,9 @@ color: #0071b3;
     padding: 5px 0;
 }
 .showmore{
-    height: 50px;
     overflow: hidden;
+    align-items: center;
+    padding: 0;
 }
 .arrowLeft{
     width: 100%;
@@ -407,7 +410,8 @@ color: #0071b3;
 .makelaars ul{
     margin: 0 1.5rem;
 }
-.makelaars li, .extrahuisOpties li{
+/* Kan gewoon 1 class zijn maar is nu dit */
+.makelaars li, .extrahuisOpties li, .overlayNav li{
     text-decoration: none;
     color: #0071b3;
     transition: color .25s cubic-bezier(.23,1,.32,1);
@@ -421,13 +425,14 @@ color: #0071b3;
     text-overflow: ellipsis;
     overflow: hidden;
 }
-.makelaars li span, .extrahuisOpties li span{
+.makelaars li span, .extrahuisOpties li span, .overlayNav li span{
     fill: #0071b3;
     height: 1.5em;
     width: 1.5em;
     vertical-align: middle;
     margin-right: .5rem;
 }
+/*Dit is niet heel chill maarja kan met een class ofzo*/
 .makelaars li:nth-of-type(1) span{
     background-image: url("../images/talk.svg");
 }
@@ -452,4 +457,70 @@ color: #0071b3;
 }
 .extrahuisOpties li:nth-of-type(5) span{
     background-image: url("../images/alarm.svg");
+}
+
+
+
+.overlayNav{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: -120vh;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    opacity: 0;
+    transition: all 350ms cubic-bezier(.23,1,.32,1);
+}
+.overlayNav p{
+    font-weight: bold;
+}
+
+.overlayNav div:first-of-type {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/*Wilde dit eerst met de Gradianet doen van de share/heart balk maar dat lukte niet Funda doet het zelf zo dus heb dat overgenomen met een after best handig*/
+.summery:after{
+ position: absolute;
+width: 100%;
+height: 5rem;
+bottom: 30px;
+left: 0;
+content: "";
+background: linear-gradient(hsla(0,0%,100%,0),#fff);
+}
+
+
+
+
+/*JS classes*/
+.clickthis{
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+    color: #0071b3;
+}
+
+.houseDetailsHidden {
+    height: 100%;
+}
+.noAfter:after{
+    height: 0;
+}
+.slideInTop {
+    top: 0;
+    opacity: 100%;
+
+}
+.slideInTop li {
+    opacity: 100%;
+}
+.hidden{
+   display: none;
+    height: 50px;
+    margin-top: -30px;
 }
