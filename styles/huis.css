@@ -16,7 +16,7 @@ main {
     max-width: 750px;
 }
 
-section:not(.showmore) {
+section:not(.showmore, .socialMediaHolder) {
     margin-bottom: 1.5rem;
 }
 
@@ -193,7 +193,7 @@ h3, h2 {
 }
 
 
-dl span {
+dl div {
     display: block;
     border-bottom: 1px solid #ededed;
 }

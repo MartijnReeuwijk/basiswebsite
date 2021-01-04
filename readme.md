@@ -10,7 +10,7 @@
 6. https://www.funda.nl/koop/scherpenzeel-ge/huis-41055429-geerhoek-32/
 7. https://www.funda.nl
 8. https://www.w3schools.com/css/css_combinators.asp
-
+9. https://stackoverflow.com/questions/24655902/group-dt-and-dd-in-span-under-dl
 
 
 ## Eindgesprek (week 7/8)
