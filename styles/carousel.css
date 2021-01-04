@@ -1,3 +1,18 @@
+@font-face {
+    font-family: nova;
+    src: url('../fonts/proximanova-regular.woff2') format('woff2');
+}
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: nova, sans-serif;
+    list-style-type: none;
+}
+
+
 .carouselHolder {
     height: auto;
 }

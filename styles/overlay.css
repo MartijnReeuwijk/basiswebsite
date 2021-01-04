@@ -1,0 +1,186 @@
+
+.overlayNav, .overlayFloorplan {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: -120vh;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    opacity: 0;
+    transition: all 350ms cubic-bezier(.23, 1, .32, 1);
+    z-index: 10;
+
+}
+.overlayNav li span {
+    fill: #0071b3;
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+
+.overlayNav p {
+    font-weight: bold;
+}
+
+.overlayNav div:first-of-type {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.overlayFloorplan {
+
+}
+
+.overlayFloorplan article {
+    position: relative;
+}
+
+.overlayFloorplan > article > section a {
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.overlayFloorplan > article > section {
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.overlayFloorplan > article > section a:not(.closeOverlay) {
+    background-image: url("../images/enlarge.svg");
+
+}
+
+.closeOverlay {
+    background-image: url("../images/closeing.svg");
+}
+
+.overlayFloorplan > div {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 20%;
+    flex-flow: column;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .12), 0 1px 4px 0 rgba(0, 0, 0, .16), 0 2px 4px -2px rgba(0, 0, 0, .24);
+}
+
+.overlayFloorplan > div button {
+    display: block;
+    width: 2.75rem;
+    margin: 0;
+    padding: .5rem;
+    line-height: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 0;
+    overflow: hidden;
+
+}
+
+.overlayFloorplan > div button:nth-of-type(even) {
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #ccc
+
+}
+
+.overlayFloorplan div button {
+}
+
+.overlayFloorplan header button {
+    color: #0071b3;
+    border-color: #0071b3;
+    background-color: #e6f2f7;
+
+    border-width: 0;
+    padding: .5rem 1rem;
+    border-bottom: 2px solid #0071b3;
+    border-radius: 0;
+}
+
+.overlayFloorplan header button:disabled {
+    color: #999;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+.overlayFloorplan select {
+    width: calc(100% - 20px);
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+}
+
+.overlayFloorplan img {
+    width: 100%;
+    height: auto;
+}
+
+.overlayNav li {
+    text-decoration: none;
+    color: #0071b3;
+    transition: color .25s cubic-bezier(.23, 1, .32, 1);
+    padding: .5em 0;
+    width: auto;
+    max-width: 20rem;
+    display: flex;
+    text-align: left;
+    line-height: 1.75rem;
+    box-shadow: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+/*JS classes*/
+.clickthis {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+    color: #0071b3;
+}
+
+.holdEffect path {
+    fill: red;
+}
+.holdEffect path:nth-of-type(2) {
+    fill: darkred;
+}
+
+
+.houseDetailsHidden {
+    height: 100%;
+}
+
+.noAfter:after {
+    height: 0;
+}
+
+.slideInTop {
+    top: 0;
+    opacity: 100%;
+    display: block;
+
+}
+
+.slideInTop li {
+    opacity: 100%;
+}
+
+.hidden {
+    display: none;
+    height: 50px;
+    margin-top: -30px;
+}
