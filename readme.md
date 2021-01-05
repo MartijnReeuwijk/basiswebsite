@@ -15,18 +15,20 @@
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
-zonder classes werken gaat oke, het houdt je HTML wel schoner maar in mij geval gaat het tenkosten van de CSS. Door deze methode zijn er niet veel herbruikbaren classes zoals bij een icoon.
+### Wat ging er lastig wat ging er goed?
+
+zonder classes werken gaat oké, het houdt je HTML wel schoner maar in mijn geval gaat het ten koste van de CSS. Door deze methode zijn er niet veel herbruikbaren classes zoals bij een icoon.
+
+Met de css selectors zonder classes ben ik er wel achter gekomen dat de > selector erg handig is en heb deze ook veel gebruikt.
+
+Funda heeft veel SVGs deze heb ik in geladen als background en soms als SVG data in de HTML. door het in te laden als een SVG kun je hover erop zetten en de code dynamic aanpassen.
 
 
-Met de css selectors zonder classes ben ik er wel achter gekomen dat de > selector erg handig is en heb deze ook veel gebuikt.
-
-Funda heeft veel SVG's deze heb ik in geladen als background en soms als SVG data in de HTML. door het in teladen als een SVG kan je hover er opzetten en de code dynamic aanpassen.
-
-## Obstacles of anderen kansen.
+### Obstacles of anderen kansen.
 
 Door het gebruik van een SVG  kan je de Fills aanpassen en zo met hover of JS
-<img src="readme_img/niet_kunnen_aanpassen.png" width="375px" alt="">
+
+<img src="readme_img/niet_kunnen_aanpassen.png" width="100%" alt="">
 
 Dit een een NOT selector zo kan je op veel element op 1 na selecteren
 <img src="readme_img/Notselector.png" width="375px" alt="Funda tweede pagina">
