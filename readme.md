@@ -31,16 +31,16 @@ Door het gebruik van een SVG  kan je de Fills aanpassen en zo met hover of JS
 <img src="readme_img/niet_kunnen_aanpassen.png" width="100%" alt="">
 
 Dit een een NOT selector zo kan je op veel element op 1 na selecteren
-<img src="readme_img/Notselector.png" width="375px" alt="Funda tweede pagina">
+<img src="readme_img/Notselector.png" width="100%" alt="Funda tweede pagina">
 
 Class slector komt in een Array dus vergeet de [0] niet op het eind. Zo kan je er altijd nog door lopen als je meer elementen heb.
-<img src="readme_img/vergeetDeArrayNiet.png" width="375px" alt="Array">
+<img src="readme_img/vergeetDeArrayNiet.png" width="100%" alt="Array">
 
 
 Het goed plaatsen van de :nth-of-type selector. Dit doe ik heel vaak op het verkeerde element
 Dus dan select ik de 2de span in de div en die de tweede div and de span
-<img src="readme_img/verwarrend.png" width="375px" alt="Funda tweede pagina">
-<img src="readme_img/zonietzo.png" width="375px" alt="Funda tweede pagina">
+<img src="readme_img/verwarrend.png" width="100%" alt="Funda tweede pagina">
+<img src="readme_img/zonietzo.png" width="100%" alt="Funda tweede pagina">
 
 
 **Screenshot(s):**
